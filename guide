@@ -1,0 +1,28 @@
+1.Create account in Heroku website
+
+2. Download Heroku CLI
+Ubuntu:
+# Run this from your terminal.
+# The following will add our apt repository and install the CLI:
+(https://devcenter.heroku.com/articles/getting-started-with-nodejs#introduction)
+sudo add-apt-repository "deb https://cli-assets.heroku.com/branches/stable/apt ./"
+curl -L https://cli-assets.heroku.com/apt/release.key | sudo apt-key add -
+sudo apt-get update
+sudo apt-get install heroku
+
+3. Login Heroku
+$ heroku login
+
+4. Clone simple setup project (NODEJS) in heroku 
+github: https://github.com/nguyenthuyhanh0805/Simple_heroku_deploy.git
+
+5. Create project in heroku
+$ heroku create <name_project>
+
+6. Push project in Git (Gitlab, Github)
+
+7. Push project in Git of Heroku
+$ git push heroku master
+
+8. Open in the browser (with heroku host)
+$ heroku open
